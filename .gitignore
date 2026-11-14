@@ -1,0 +1,7 @@
+# Downloaded sources (re-download: Linux 6.18.62 from kernel.org, BusyBox 1.38.0)
+src/
+# Generated build output
+build/
+# Editor / tool config
+.claude/
+analysis/
