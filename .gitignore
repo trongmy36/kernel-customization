@@ -25,6 +25,7 @@ app/early-display-service
 .codex/
 .cache/
 .DS_Store
+.serena
 
 # ---- Downloaded archives (sources live in src/) ----
 *.tar

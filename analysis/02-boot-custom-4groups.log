@@ -1,0 +1,6 @@
+
+============================================
+ AUTOMOTIVE DISPLAY READY (uptime=0.54 s)
+============================================
+/bin/sh: can't access tty; job control turned off
+~ # qemu-system-aarch64: terminating on signal 15 from pid 67445 (timeout)
