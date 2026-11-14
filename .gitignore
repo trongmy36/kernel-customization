@@ -1,6 +1,42 @@
-# Generated build output (keep only the packed rootfs)
+# ---- Build output (keep only the packed rootfs) ----
 build/*
 !build/initramfs.cpio.gz
-# Editor / tool config
-.claude/
+
+# ---- Analysis: measurements, boot/build logs, config diffs (not published yet) ----
 analysis/
+
+# ---- Compiled output of the app (cross-built into build/rootfs) ----
+app/*.o
+app/early-display-service
+
+# ---- Logs and temporary files ----
+*.log
+*.tmp
+*.bak
+*.orig
+*.rej
+*~
+.#*
+*.swp
+*.swo
+
+# ---- Editor / IDE / tool config ----
+.vscode/
+.idea/
+.claude/
+.codex/
+.cache/
+.DS_Store
+
+# ---- Downloaded archives (sources live in src/) ----
+*.tar
+*.tar.gz
+*.tar.xz
+*.tar.bz2
+*.sha256
+*.zip
+
+# ---- Disk and VM images ----
+*.img
+*.raw
+*.qcow2
