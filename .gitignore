@@ -2,15 +2,13 @@
 build/*
 !build/initramfs.cpio.gz
 
-# ---- Analysis: measurements, boot/build logs, config diffs (not published yet) ----
-analysis/
-
 # ---- Compiled output of the app (cross-built into build/rootfs) ----
 app/*.o
 app/early-display-service
 
 # ---- Logs and temporary files ----
 *.log
+!analysis/*.log
 *.tmp
 *.bak
 *.orig
